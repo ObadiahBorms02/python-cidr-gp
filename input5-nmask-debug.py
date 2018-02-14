@@ -8,7 +8,7 @@ def getnmask(cidr,nmask):
 		nmask = [255,255,255,254]
 	if cidr == 30:
 		nmask = [255,255,255,252]
-		if cidr == 32:
+	if cidr == 32:
 		nmask = [255,255,255,255]
 	if cidr == 31:
 		nmask = [255,255,255,254]
